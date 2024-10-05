@@ -22,7 +22,7 @@ namespace Parser.Language
         /// <summary>
         /// La acción del efecto
         /// </summary>
-        Action<IEnumerable<IContextCard>, IContext, InputParams[]> Action { get; }
+        Action<IEnumerable<IContextCard>, IContext, IInputParams[]> Action { get; }
     }
 
     /// <summary>

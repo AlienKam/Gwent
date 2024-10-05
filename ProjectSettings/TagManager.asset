@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Posiciones 1
+  - Deck
+  - Heore
+  - Cartas
+  - Posiciones Scroll
+  - Posiciones 2
+  - Seccion
+  - DragParent
+  - Posiciones Carta
+  - Cementerio
+  - Primera Faccion
   layers:
   - Default
   - TransparentFX

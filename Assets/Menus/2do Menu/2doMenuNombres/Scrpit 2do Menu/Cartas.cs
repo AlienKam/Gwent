@@ -4,6 +4,8 @@ using UnityEngine;
 using Logica;
 using UnityEngine.EventSystems;
 using Parser.Language;
+using Unity.VisualScripting;
+using UnityEngine.Analytics;
 
 
 public class Cartas : MonoBehaviour
@@ -13,9 +15,22 @@ public class Cartas : MonoBehaviour
     public double power;
     public string tipoCarta;
     public IEnumerable<IOnActivation> habilidad;
-    public  CardClassification[] range;
+    public CardClassification[] range;
     public BaseCard baseCard;
 
+    public void Update()
+    {
+        if(baseCard == null) return;
+        else
+        {
+            power = baseCard.Power; 
+            faccion = baseCard.Faction;
+            nombre = baseCard.Name;
+            tipoCarta = baseCard.Type;
+            range = baseCard.Range;
+            habilidad = baseCard.OnActivations;
+        }
+    }
 
     public BaseCard CrearCarta()
     {
@@ -46,5 +61,7 @@ public class Cartas : MonoBehaviour
         }
         return baseCard;
     }
+
+    // LLamar a los metodos que cambian los valores visualmente
 }
 

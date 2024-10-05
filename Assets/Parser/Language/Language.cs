@@ -50,7 +50,7 @@ namespace Parser.Language
     /// </summary>
     public class EffectDef : Node, IEffectDef
     {
-        public EffectDef(string name, IParams[] @params, Action<IEnumerable<IContextCard>, IContext, InputParams[]> action)
+        public EffectDef(string name, IParams[] @params, Action<IEnumerable<IContextCard>, IContext, IInputParams[]> action)
         {
             Name = name;
             Params = @params;
@@ -70,7 +70,7 @@ namespace Parser.Language
         /// <summary>
         /// La accion que se va a ejecutar cuando se llame al efecto
         /// </summary>
-        public Action<IEnumerable<IContextCard>, IContext, InputParams[]> Action { get; private set; }
+        public Action<IEnumerable<IContextCard>, IContext, IInputParams[]> Action { get; private set; }
     }
     public class Params : Node, IParams
     {

@@ -99,8 +99,8 @@ public class DragItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     cardSprite = childTransform.GetComponent<Image>();
     displayManager.ShowCardImage(cardSprite.sprite);*/
 
-    cardSprite = GetComponent<Image>();
-    displayManager.ShowCardImage(cardSprite.sprite);
+    // cardSprite = GetComponent<Image>();
+    // displayManager.ShowCardImage(cardSprite.sprite);
   }
 
   public void OnPointerExit(PointerEventData eventData)

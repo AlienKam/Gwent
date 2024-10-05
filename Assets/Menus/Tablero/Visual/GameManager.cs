@@ -71,8 +71,8 @@ public class GameManager : MonoBehaviour
         turnos = GameObject.Find("Controlador de Turno").GetComponent<Turnos>();
 
         //Crea las instancias
-        Player player3 = new Player(player1.GetComponent<PlayersVisual>().nameplayer, player1.GetComponent<PlayersVisual>().faccionplayer);
-        Player player4 = new Player(player2.GetComponent<PlayersVisual>().nameplayer, player2.GetComponent<PlayersVisual>().faccionplayer);
+        Player player3 = new Player(player1.GetComponent<PlayersVisual>().nameplayer, player1.GetComponent<PlayersVisual>().faccionplayer, 0);
+        Player player4 = new Player(player2.GetComponent<PlayersVisual>().nameplayer, player2.GetComponent<PlayersVisual>().faccionplayer, 1);
         funcionesTablero.InicializarTablero(tablero);
 
         //Agrega y crea referencias a listas
@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Termino Ronda");
             TerminarJuego(); // TODO implementar ver el panel de final de juego
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
         // Detecta si se presiona la tecla Enter
         if (isPanelActive && Input.GetKeyDown(KeyCode.Return))
@@ -172,12 +172,12 @@ public class GameManager : MonoBehaviour
     }
 
 
-    private void SwapValues(List<GameObject> deck)
+    public void SwapValues<T>(List<T> deck)
     {
         int indexA = Random.Range(0, deck.Count);
         int indexB = Random.Range(0, deck.Count);
 
-        GameObject tempcard = deck[indexA];
+        T tempcard = deck[indexA];
         deck[indexA] = deck[indexB];
         deck[indexB] = tempcard;
     }

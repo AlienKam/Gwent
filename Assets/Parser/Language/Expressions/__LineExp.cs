@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime;
+using static Parser.Language.CallMethods;
 
 namespace Parser.Language
 {
@@ -177,26 +178,22 @@ namespace Parser.Language
         {
             var list = callList.Execute(blockContext);
             var card = exp != null ? exp.Execute(blockContext) : default;
+            int player = (int)callList.player.Execute(blockContext);
+            TypeList typeList = callList.method;
 
             switch (method)
             {
                 case "Shuffle":
-                    blockContext.context.Shuffle(list);
+                    blockContext.context.Shuffle(list, typeList, player);
                     break;
                 case "Push":
-                    if (card == default)
-                        throw new Exception();
-                    list.Insert(0, card);
+                    blockContext.context.Push(list, typeList, card, player);
                     break;
                 case "Remove":
-                    if (card == default)
-                        throw new Exception();
-                    list.Remove(card);
+                    blockContext.context.Remove(list, typeList, card, player);
                     break;
                 case "SendButton":
-                    if (card == default)
-                        throw new Exception();
-                    list.Insert(list.Count - 1, card);
+                    blockContext.context.SendButton(list, typeList, card, player);
                     break;
             }
         }

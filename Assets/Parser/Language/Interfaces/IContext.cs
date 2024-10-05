@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using static Parser.Language.CallMethods;
 
 namespace Parser.Language
 {
@@ -80,7 +81,10 @@ namespace Parser.Language
         /// <returns>La mano del jugador especificado</returns>
         List<IContextCard> HandOfPlayer(int player);
 
-        void Shuffle(List<IContextCard> list);
+        void Shuffle(List<IContextCard> list, TypeList typeList, int player);
+        void Push(List<IContextCard> list, TypeList typeList, IContextCard card, int player);
+        void Remove(List<IContextCard> list, TypeList typeList, IContextCard card, int player);
+        void SendButton(List<IContextCard> list, TypeList typeList, IContextCard card, int player);
     }
 
     public interface IBlockContext

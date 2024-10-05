@@ -1,6 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dicciona;
+using Parser;
+using Parser.Language;
 using UnityEngine;
 
 namespace Logica
@@ -24,7 +27,7 @@ namespace Logica
       public BaseCard[] climas;
       public bool[] climasbool;
       public List<BaseCard> cementerio;
- 
+
       public Tablero()
       {
          tablero = new MonsterCard[6, 5];
@@ -39,17 +42,17 @@ namespace Logica
 
    public class FuncionesTablero
    {
-      Tablero tab;
+      public Tablero tablero;
       public FuncionesTablero(Tablero tablero)
       {
-         tab = tablero;
+         this.tablero = tablero;
       }
-      Tablero tablero = new Tablero();
+
       public void InicializarTablero(Tablero tablerojuego)
       {
          tablero = tablerojuego;
       }
-      public void PonerCartas(BaseCard card, int fila, int columna, Player player)
+      public void PonerCartas(BaseCard card, int fila, int columna, Player player, IContext context)
       {
          if (columna > 5)
          {
@@ -72,6 +75,23 @@ namespace Logica
             tablero.tablerobool[fila, columna] = true;
             player.puntos += carta.Power;
          }
+
+         Activate(card.OnActivations, context);
+      }
+
+      public void Activate(IEnumerable<IOnActivation> onActivations, IContext context)
+      {
+         foreach (var item in onActivations)
+         {
+            IEnumerable<IContextCard> target = GetSource(item.Selector.Source, context);
+            var effect = Dictionaryeffects.effects[item.Effect.Name].Action;
+            effect(target, context, item.Effect.Params);
+         }
+      }
+
+      private IEnumerable<IContextCard> GetSource(Source source,  IContext context)
+      {
+         throw new NotImplementedException();
       }
 
       public bool IsValido(uint clas, uint clascard, int playeractual, int seccion)
@@ -87,7 +107,7 @@ namespace Logica
 
       public bool IsValidoEspecial(TipoPosicion tab, string card, int playeractual, int seccion)
       {
-         if((seccion == playeractual)&&((tab == TipoPosicion.Aumento && card == "Aumento") || (tab == TipoPosicion.Clima && card == "Clima")))
+         if ((seccion == playeractual) && ((tab == TipoPosicion.Aumento && card == "Aumento") || (tab == TipoPosicion.Clima && card == "Clima")))
          {
             return true;
          }

@@ -199,7 +199,7 @@ namespace Parser
             }
         }
 
-        public Action<IEnumerable<IContextCard>, IContext, InputParams[]> ActionDef(IToken[] tokens, ref int index, Params[] @params)
+        public Action<IEnumerable<IContextCard>, IContext, IInputParams[]> ActionDef(IToken[] tokens, ref int index, Params[] @params)
         {
             if (tokens[++index].Lex != "Action")
             {
@@ -238,7 +238,7 @@ namespace Parser
 
             global = new();
             BlockExp block = BlockExpDef(tokens, ref index);
-            Action<IEnumerable<IContextCard>, IContext, InputParams[]> action = (cards, contex, inputParams) =>
+            Action<IEnumerable<IContextCard>, IContext, IInputParams[]> action = (cards, contex, inputParams) =>
             {
                 var dict = new Dictionary<string, (VarType, object)>(
                     inputParams.Select(param => new KeyValuePair<string, (VarType, object)>

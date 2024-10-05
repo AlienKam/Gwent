@@ -93,6 +93,7 @@ public class RondaVisual : MonoBehaviour
     }
   }
 
+  public List<GameObject> GetPositions() => posiciones;
 
   //Se llama al principio para crear una nueva ronda
   public void InstanciarRondas(List<Player> player, List<List<GameObject>> decks, List<List<GameObject>> controlhands, GameObject[] cementerio, bool terminojuego)

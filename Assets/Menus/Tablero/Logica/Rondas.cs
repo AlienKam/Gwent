@@ -33,24 +33,6 @@ namespace Logica
             pasados = new bool[players.Count];
         }
 
-        /* public List<BaseCard> DistribucionCartas(List<BaseCard> deck, List<BaseCard> posicionescarta) // No hay Cartas Repetidas arreglar eso
-         {
-             List<BaseCard> hand = new List<BaseCard>();
-             for (int i = 0; i < posicionescarta.Count; i++)
-             {
-                 if (posicionescarta[i] is not null)
-                 {
-                     hand.Add(posicionescarta[i]);
-                     continue;
-                 }
-                 BaseCard card = deck[deck.Count - 1];
-                 deck.RemoveAt(deck.Count - 1);
-                 hand.Add(card);
-             }
-
-             return hand;
-         }*/
-
         public void InsertarCarta(BaseCard card, List<BaseCard> deck)
         {
             if (index < 0 || index >= deck.Count) return;
