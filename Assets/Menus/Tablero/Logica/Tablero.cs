@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Dicciona;
 using Parser;
 using Parser.Language;
@@ -83,15 +84,44 @@ namespace Logica
       {
          foreach (var item in onActivations)
          {
-            IEnumerable<IContextCard> target = GetSource(item.Selector.Source, context);
+            IEnumerable<IContextCard> target = GetSource(item.Selector, context);
             var effect = Dictionaryeffects.effects[item.Effect.Name].Action;
             effect(target, context, item.Effect.Params);
+
+            var postSelector = item.PostAction.Selector.Source == Source.Parent ? item.Selector : item.PostAction.Selector;
+            IEnumerable<IContextCard> postTarget = GetSource(postSelector, context);
+            var postAction = Dictionaryeffects.effects[item.PostAction.Effect.Name].Action;
+            postAction(target, context, item.PostAction.Effect.Params);
          }
       }
 
-      private IEnumerable<IContextCard> GetSource(Source source,  IContext context)
+      private IEnumerable<IContextCard> GetSource(ISelector selector, IContext context)
       {
-         throw new NotImplementedException();
+         IEnumerable<IContextCard> source;
+         switch (selector.Source)
+         {
+            case Source.Hand:
+               source = context.Hand;
+               break;
+            case Source.OtherHands:
+               source = context.HandOfPlayer((context.TriggerPlayer + 1) % 2);
+               break;
+            case Source.Deck:
+               source = context.Deck;
+               break;
+            case Source.OtherDecks:
+               source = context.DeckOfPlayer((context.TriggerPlayer + 1) % 2);
+               break;
+            case Source.Field:
+               source = context.Field;
+               break;
+            case Source.OtherFields:
+               source = context.FieldOfPlayer((context.TriggerPlayer + 1) % 2);
+               break;
+            default:
+               throw new Exception();
+         }
+         return source.Where(x => selector.Predicate(x));
       }
 
       public bool IsValido(uint clas, uint clascard, int playeractual, int seccion)
