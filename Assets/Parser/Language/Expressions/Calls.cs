@@ -8,7 +8,7 @@ using Parser;
 namespace Parser.Language
 {
 
-    class CallVar<T> : IOperationExp<T>
+    public class CallVar<T> : IOperationExp<T>
     {
         public string name { get; protected set; }
 
@@ -126,6 +126,7 @@ namespace Parser.Language
     {
         public static Dictionary<string, TypeList> MethodsConvert = new Dictionary<string, TypeList>()
         {
+            {"Board", TypeList.Board },
             {"Field", TypeList.Field },
             {"Graveyard", TypeList.Graveyard },
             {"Deck", TypeList.Deck },
@@ -137,6 +138,7 @@ namespace Parser.Language
         };
         public enum TypeList
         {
+            Board,
             Field,
             Graveyard,
             Deck,
@@ -165,6 +167,8 @@ namespace Parser.Language
                     return blockContext.context.DeckOfPlayer(calledPlayer);
                 case TypeList.Hand:
                     return blockContext.context.HandOfPlayer(calledPlayer);
+                case TypeList.Board:
+                    return blockContext.context.Board;
                 default:
                     throw new Exception("");
             }

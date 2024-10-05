@@ -40,7 +40,11 @@ namespace Parser
 
             if (tokens[index].Lex == "effect")
             {
-                if (tokens[++index].Type != TokenType.Colon || tokens[++index].Type != TokenType.OpenKey)
+                if (tokens[++index].Type != TokenType.Colon)
+                {
+                    index--;
+                }
+                if (tokens[++index].Type != TokenType.OpenKey)
                 {
                     throw new Exception();
                 }
@@ -54,7 +58,11 @@ namespace Parser
             }
             else if (tokens[index].Lex == "card")
             {
-                if (tokens[++index].Type != TokenType.Colon || tokens[++index].Type != TokenType.OpenKey)
+                if (tokens[++index].Type != TokenType.Colon)
+                {
+                    index--;
+                }
+                if (tokens[++index].Type != TokenType.OpenKey)
                 {
                     throw new Exception();
                 }
@@ -83,7 +91,7 @@ namespace Parser
 
             Params[] @params = ParamsDef(tokens, ref index);
 
-            if (tokens[++index].Type != TokenType.Comma)
+            if (@params.Length > 0 && tokens[++index].Type != TokenType.Comma)
             {
                 throw new Exception();
             }
@@ -130,7 +138,8 @@ namespace Parser
             List<Params> @params = new List<Params>();
             if (tokens[++index].Lex != "Params")
             {
-                throw new Exception();
+                index--;
+                return @params.ToArray();
             }
 
             if (tokens[++index].Type != TokenType.Colon)
@@ -155,7 +164,12 @@ namespace Parser
                 @params.Add(param);
             } while (tokens[++index].Type == TokenType.Comma);
 
-            if (tokens[index].Type != TokenType.CloseKey)
+            if (tokens[index].Type != TokenType.Comma)
+            {
+                index--;
+            }
+
+            if (tokens[++index].Type != TokenType.CloseKey)
             {
                 throw new Exception();
             }
@@ -236,7 +250,7 @@ namespace Parser
                 throw new Exception("");
             }
 
-            global = new();
+            global = new(@params.Select(x => KeyValuePair.Create(x.Name, x.ParamsType)));
             BlockExp block = BlockExpDef(tokens, ref index);
             Action<IEnumerable<IContextCard>, IContext, IInputParams[]> action = (cards, contex, inputParams) =>
             {
@@ -317,6 +331,16 @@ namespace Parser
                 index = lastIndex;
             }
 
+            try
+            {
+                AttributeVarExp attribute = AttVarExp(tokens, ref index);
+                return attribute;
+            }
+            catch (Exception)
+            {
+                index = lastIndex;
+            }
+
             DeclarationVarExp declarationVar = DeVar(tokens, ref index);
 
             if (tokens[++index].Type != TokenType.Semicolon)
@@ -389,7 +413,9 @@ namespace Parser
                 throw new Exception();
             }
 
-            CallVar<IContextCard> call = new CallVar<IContextCard>(tokens[++index].Lex);
+            CallVar<IContextCard> call = null;
+            if (tokens[index + 1].Type != TokenType.CloseParenthesis)
+                call = new CallVar<IContextCard>(tokens[++index].Lex);
 
             if (tokens[++index].Type != TokenType.CloseParenthesis)
             {
@@ -441,6 +467,7 @@ namespace Parser
             }
 
             string name = tokens[index].Lex;
+            global.Add(name, VarType.Card);
 
             if (tokens[++index].Lex != "in")
             {
@@ -473,6 +500,7 @@ namespace Parser
                 }
             }
             BlockExp block = BlockExpDef(tokens, ref index);
+            global.Remove(name);
             return new ForExp(name, list, block);
 
         }
@@ -529,6 +557,42 @@ namespace Parser
             return (name, exp);
         }
 
+        private AttributeVarExp AttVarExp(IToken[] tokens, ref int index)
+        {
+            if (tokens[++index].Type != TokenType.Identifier)
+            {
+                throw new Exception("");
+            }
+
+            string cardName = tokens[index].Lex;
+
+            if (tokens[++index].Type != TokenType.Dot)
+            {
+                throw new Exception("");
+            }
+
+            if (tokens[++index].Type != TokenType.Identifier)
+            {
+                throw new Exception("");
+            }
+
+            string name = tokens[index].Lex;
+
+            if (tokens[++index].Type != TokenType.Equal)
+            {
+                throw new Exception("");
+            }
+
+            ValueExp valueExp = ValueExp(tokens, ref index);
+
+            if (tokens[++index].Type != TokenType.Semicolon)
+            {
+                throw new Exception();
+            }
+
+            return new AttributeVarExp(new CallVar<IContextCard>(cardName), name, valueExp);
+        }
+
         public DeclarationVarExp DeVar(IToken[] tokens, ref int index)
         {
             if (tokens[++index].Type != TokenType.Identifier)
@@ -537,6 +601,7 @@ namespace Parser
             }
 
             string namevar = tokens[index].Lex;
+            global.ContainsKey(namevar);
 
             if (tokens[++index].Type != TokenType.Equal)
             {
@@ -547,8 +612,7 @@ namespace Parser
             ValueExp valueExp;
             try
             {
-                IOperationExp<IContextCard> card = CardExp(tokens, ref index);
-                valueExp = new ValueExp(card);
+                valueExp = ValueExp(tokens, ref index);
                 global[namevar] = valueExp.Type;
                 return new DeclarationVarExp(namevar, valueExp);
             }
@@ -556,7 +620,8 @@ namespace Parser
             {
                 index = lastIndex;
             }
-            valueExp = ValueExp(tokens, ref index);
+            IOperationExp<IContextCard> card = CardExp(tokens, ref index);
+            valueExp = new ValueExp(card);
             global[namevar] = valueExp.Type;
             return new DeclarationVarExp(namevar, valueExp);
         }
@@ -881,7 +946,6 @@ namespace Parser
                         index--;
                         return AttributeCardExp<double>(tokens, ref index);
                     }
-                    index++;
                     if (!global.ContainsKey(token.Lex) || global[token.Lex] != VarType.Int)
                         throw new Exception();
                     return new CallVar<double>(token.Lex);
@@ -953,6 +1017,8 @@ namespace Parser
             {
                 index = lastIndex;
                 string cardName = token.Lex;
+                if (global.ContainsKey(cardName) && global[cardName] != VarType.Card)
+                    throw new Exception();
                 card = new CallVar<IContextCard>(cardName);
             }
             return card;
@@ -1011,8 +1077,8 @@ namespace Parser
         public IOperationExp<string> StringConcatExp(IToken[] tokens, ref int index)
         {
             IOperationExp<string> left = StringSimple(tokens, ref index);
-            IToken token = tokens[++index];
             int lastIndex = index;
+            IToken token = tokens[++index];
             IOperationExp<string> rigth;
             try
             {
@@ -1033,7 +1099,7 @@ namespace Parser
                     return new ConcatExp2(left, rigth);
 
                 default:
-                    index = lastIndex - 1;
+                    index = lastIndex;
                     return left;
             }
         }
@@ -1140,6 +1206,11 @@ namespace Parser
                 onsList.Add(onAction);
             } while (tokens[++index].Type == TokenType.Comma);
 
+            if (tokens[index].Type != TokenType.Comma)
+            {
+                index--;
+            }
+
             if (tokens[++index].Type != TokenType.CloseBracket)
             {
                 throw new Exception();
@@ -1157,20 +1228,29 @@ namespace Parser
 
             ICallEffect effect = CallEffectExp(tokens, ref index);
 
-            if (tokens[++index].Type != TokenType.Comma)
-            {
-                throw new Exception();
-            }
-
-            ISelector selector = SelectorExp(tokens, ref index);
-
+            ISelector selector = default;
             if (tokens[++index].Type != TokenType.Comma)
             {
                 index--;
-                return new OnActivation(default, effect, selector);
+            }
+            else
+            {
+                selector = SelectorExp(tokens, ref index);
             }
 
-            IActionEffect postAction = PostAction(tokens, ref index);
+            IActionEffect postAction = default;
+            if (tokens[++index].Type != TokenType.Comma)
+            {
+                index--;
+                if ((!effect.simple || selector != default) && tokens[++index].Type != TokenType.CloseKey)
+                {
+                    throw new Exception();
+                }
+            }
+            else
+            {
+                postAction = PostAction(tokens, ref index);
+            }
 
             if (tokens[++index].Type != TokenType.CloseKey)
             {
@@ -1197,17 +1277,22 @@ namespace Parser
             {
                 index--;
                 name = SimpleName(tokens, ref index);
-                return new CallEffect(name, new IInputParams[0]);
+                return new CallEffect(name, new IInputParams[0], true);
             }
 
             name = NameCard(tokens, ref index);
 
             if (tokens[++index].Type != TokenType.Comma)
             {
-                throw new Exception();
+                return new CallEffect(name, new IInputParams[0], true);
             }
 
             IInputParams[] inputParams = InputParamsExp(tokens, ref index);
+
+            if (tokens[++index].Type != TokenType.CloseKey)
+            {
+                throw new Exception();
+            }
 
             return new CallEffect(name, inputParams);
         }
@@ -1247,6 +1332,11 @@ namespace Parser
                 IInputParams param = InputParamsDef(tokens, ref index);
                 inputParams.Add(param);
             } while (tokens[++index].Type == TokenType.Comma);
+
+            if (tokens[index].Type != TokenType.Comma)
+            {
+                index--;
+            }
 
             return inputParams.ToArray();
         }

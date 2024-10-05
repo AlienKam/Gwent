@@ -79,16 +79,19 @@ public class DropPosition : MonoBehaviour, IDropHandler
     public IContext GetContext(int playerId)
     {
         var hand = new Func<int, IEnumerable<IContextCard>>(id => control.hands[id].
-            Select(x => new ContextCard(x.GetComponent<Cartas>().baseCard, id)));
+            Select(x => x.GetComponent<Cartas>()).Where(x => x != null).
+            Select(x => new ContextCard(x.baseCard, id)));
         var Deck = new Func<int, IEnumerable<IContextCard>>(id => control.decks[id].
-            Select(x => new ContextCard(x.GetComponent<Cartas>().baseCard, id)));
+            Select(x => x.GetComponent<Cartas>()).Where(x => x != null).
+            Select(x => new ContextCard(x.baseCard, id)));
         var Graveyard = new Func<int, IEnumerable<IContextCard>>(id => control.cementerio[id].transform.GetComponentsInChildren<Cartas>().
-            Select(x => new ContextCard(x.GetComponent<Cartas>().baseCard, id)));
-        var Field = new Func<int, IEnumerable<IContextCard>>(id => GameObject.FindGameObjectsWithTag($"Posociones {id + 1}").
-            Select(x => new ContextCard(x.GetComponentInChildren<Cartas>().baseCard, id)));
-        var Board = GameObject.FindGameObjectsWithTag($"Posociones 1").
-            Select(x => new ContextCard(x.GetComponentInChildren<Cartas>().baseCard, 0)).
-            Concat(Field(1));
+            Select(x => x.GetComponent<Cartas>()).Where(x => x != null).
+            Select(x => new ContextCard(x.baseCard, id)));
+        var Field = new Func<int, IEnumerable<IContextCard>>(id => GameObject.FindGameObjectsWithTag($"Posiciones {id + 1}").
+            Select(x => x.GetComponent<Cartas>()).Where(x => x != null).
+            Select(x => new ContextCard(x.baseCard, id)));
+            
+        var Board = Field(0).Concat(Field(1));
 
         var ShuffleHand = new Action<int>((playerId) =>
         {

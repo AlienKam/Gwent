@@ -137,6 +137,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Termino Ronda");
             TerminarJuego(); // TODO implementar ver el panel de final de juego
+            DontDestroyOnLoad(players.Find(x => x.GetComponent<PlayersVisual>().nameplayer == winner.nombreplayer));
             SceneManager.LoadScene(3);
         }
         // Detecta si se presiona la tecla Enter

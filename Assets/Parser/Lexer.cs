@@ -50,6 +50,7 @@ namespace Parser
             string actualWord = words[i];
             IEnumerable<string>? collisions = null;
             IEnumerable<string> actualCollisions = valuePairs.Keys.Where(x => x.StartsWith(actualWord));
+            int count = 0;
 
             while (actualCollisions.Count() > 0 && words.Length > i)
             {
@@ -57,6 +58,7 @@ namespace Parser
                 word = actualWord;
 
                 i++;
+                count++;
                 if (words.Length <= i)
                 {
                     break;
@@ -65,11 +67,15 @@ namespace Parser
                 actualCollisions = valuePairs.Keys.Where(x => x.StartsWith(actualWord));
             }
 
-            TokenType type = TokenType.Identifier;
-            if (collisions != null)
+            TokenType type;
+            if (!valuePairs.TryGetValue(word, out type))
+            {
+                i -= count;
+                type = TokenType.Identifier;
+            }
+            else if (collisions != null)
             {
                 i = word.Length - 1 == i ? i : i - 1;
-                type = valuePairs[word];
             }
             return type;
         }
@@ -97,7 +103,7 @@ namespace Parser
                 string name = "";
                 while (words[i + 1] != "\"" && i < words.Length - 1)
                 {
-                    if(name == "")
+                    if (name == "")
                     {
                         name += words[++i];
                     }

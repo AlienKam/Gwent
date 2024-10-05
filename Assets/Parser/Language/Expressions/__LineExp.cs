@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime;
+using System.Xml.Linq;
+using Unity.VisualScripting;
 using static Parser.Language.CallMethods;
 
 namespace Parser.Language
@@ -127,6 +129,37 @@ namespace Parser.Language
             {
                 blockContext.LocalVar[Name] = value;
             }
+        }
+    }
+
+    public class AttributeVarExp : DeclarationVarExp
+    {
+        public CallVar<IContextCard> Var { get; }
+
+        public AttributeVarExp(CallVar<IContextCard> var, string name, IOperationExp<(VarType type, object value)> exp) : base(name, exp)
+        {
+            Var = var;
+        }
+
+        public override void Execute(IBlockContext blockContext)
+        {
+            IContextCard card = Var.Execute(blockContext);
+            VarType cardType;
+            switch (Name)
+            {
+                case "Power":
+                    cardType = VarType.Int;
+                    break;
+                default:
+                    throw new Exception();
+            }
+
+            (VarType type, object value) value = ValueExp.Execute(blockContext);
+            if (cardType != value.type)
+            {
+                throw new Exception();
+            }
+            card.Power = value.ConvertTo<double>();
         }
     }
 

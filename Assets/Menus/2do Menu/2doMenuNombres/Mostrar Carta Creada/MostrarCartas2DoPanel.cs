@@ -16,7 +16,7 @@ public class MostrarCartas2DoPanel : MonoBehaviour
 
     public void MostrarCartas()
     {
-        posicionscard = GameObject.FindGameObjectsWithTag("Posiciones 1").ToList();
+        //posicionscard = GameObject.FindGameObjectsWithTag(" Posiciones 1").ToList();
         cardscread = creador.cartas;
         if (cardscread.Count == 1)
         {
@@ -37,6 +37,8 @@ public class MostrarCartas2DoPanel : MonoBehaviour
         {
             cardscread[i].transform.position = pos[i].transform.position;
             cardscread[i].transform.SetParent(pos[i].transform);
+            RectTransform parent = cardscread[i].transform.parent.GetComponent<RectTransform>();
+            cardscread[i].GetComponent<RectTransform>().sizeDelta = new Vector2(parent.sizeDelta.x, parent.sizeDelta.y);
         }
     }
 }

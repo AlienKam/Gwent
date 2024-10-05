@@ -57,6 +57,8 @@ namespace Parser.Language
     /// </summary>
     public interface ICallEffect
     {
+        public bool simple { get; }
+
         /// <summary>
         /// El nombre del efecto
         /// </summary>

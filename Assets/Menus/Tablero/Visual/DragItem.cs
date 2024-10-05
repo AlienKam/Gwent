@@ -68,6 +68,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     if (_isDropped)
     {
       _dontmove = true;
+      turnoactual.termino = true;
       return;
     }
 

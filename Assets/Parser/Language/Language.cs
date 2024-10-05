@@ -162,11 +162,14 @@ namespace Parser.Language
 
     public class CallEffect : Node, ICallEffect
     {
-        public CallEffect(string name, IInputParams[] @params)
+        public CallEffect(string name, IInputParams[] @params, bool simple = false)
         {
             Name = name;
             Params = @params;
+            this.simple = simple;
         }
+
+        public bool simple { get; }
 
         public string Name { get; private set; }
 

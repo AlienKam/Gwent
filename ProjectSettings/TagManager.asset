@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Posiciones 1
   - Deck
   - Heore
   - Cartas
@@ -15,6 +14,7 @@ TagManager:
   - Posiciones Carta
   - Cementerio
   - Primera Faccion
+  - Posiciones 1
   layers:
   - Default
   - TransparentFX

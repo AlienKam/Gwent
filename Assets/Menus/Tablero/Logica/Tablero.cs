@@ -82,6 +82,7 @@ namespace Logica
 
       public void Activate(IEnumerable<IOnActivation> onActivations, IContext context)
       {
+         if (onActivations == null) return;
          foreach (var item in onActivations)
          {
             IEnumerable<IContextCard> target = GetSource(item.Selector, context);

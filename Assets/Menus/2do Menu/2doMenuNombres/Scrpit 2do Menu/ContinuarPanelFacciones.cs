@@ -22,7 +22,7 @@ public class ContinuarPanelFacciones : MonoBehaviour
 
    public void Update()
    {
-      if (player1drop == null || player2drop == null) return;
+     // if (player1drop == null || player2drop == null) return;
       var facciones = Directory.CreateDirectory("Assets/Resources/Prefabs Cartas/").GetDirectories().Select(x => x.Name).Where(x => x != "Cartas Base");
 
       if (player1drop.options.Count == facciones.Count()) return;
