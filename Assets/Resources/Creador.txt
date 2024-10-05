@@ -1,0 +1,17 @@
+  card : {
+ Type: "Heroe",
+ Name: "Geralt",
+ Faction: "Faccion 1",
+ Power: 15,
+ Range: ["Melee"],
+ OnActivation: [
+ {
+ Effect: "Damage",
+ Selector: {
+ Source: "Field",
+ Single: true,
+ Predicate: (unit) => unit.Faction == "Monster"
+ }
+ }
+ ]
+}
