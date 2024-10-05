@@ -20,8 +20,7 @@ public class CreadorDeFacciones : MonoBehaviour
     public GameObject cardClima;
     public GameObject cardAumento;
     public GameObject cardSeñuelo;
-    public GameObject cardAsedio;
-    public GameObject cardneutral;
+    public GameObject efects;
 
     public List<GameObject> cartas;
 
@@ -43,14 +42,11 @@ public class CreadorDeFacciones : MonoBehaviour
             case "Aumento":
                 instanciecard = GameObject.Instantiate(cardAumento);
                 break;
-            case "Asedio":
-                instanciecard = GameObject.Instantiate(cardAsedio);
-                break;
             case "Señuelo":
                 instanciecard = GameObject.Instantiate(cardSeñuelo);
                 break;
             default:
-                instanciecard = GameObject.Instantiate(cardneutral);
+                instanciecard = GameObject.Instantiate(cardAumento);
                 break;
         }
 
@@ -73,7 +69,7 @@ public class CreadorDeFacciones : MonoBehaviour
 
         string pathDir = $"Assets\\Resources\\Prefabs Cartas\\{carta.Faction}\\{carta.Type}";
         if (!Directory.Exists(pathDir))
-        {   
+        {
             Directory.CreateDirectory(pathDir);
         }
         PrefabUtility.SaveAsPrefabAsset(instanciecard, $"{pathDir}\\{carta.Name}.prefab");

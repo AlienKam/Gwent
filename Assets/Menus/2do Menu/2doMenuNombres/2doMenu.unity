@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 4813519}
   m_Layer: 5
   m_Name: +4Cartas (61)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -5146.001}
+  m_AnchoredPosition: {x: 14.000122, y: -4058.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4813519
@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 33415088}
   m_Layer: 5
   m_Name: +4Cartas (25)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -346,7 +346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -1529.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -441.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33415088
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 44789863}
   m_Layer: 5
   m_Name: +4Cartas (68)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -422,7 +422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -5747.001}
+  m_AnchoredPosition: {x: 261, y: -4659.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44789863
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 46583655}
   m_Layer: 5
   m_Name: +4Cartas (42)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,7 +498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -3366.0007}
+  m_AnchoredPosition: {x: -230, y: -2278.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46583655
@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 53366206}
   m_Layer: 5
   m_Name: +4Cartas (89)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -574,7 +574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -7844.001}
+  m_AnchoredPosition: {x: 14.000122, y: -6756.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53366206
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 66496940}
   m_Layer: 5
   m_Name: +4Cartas (65)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -731,7 +731,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -5444.001}
+  m_AnchoredPosition: {x: 261, y: -4356.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66496940
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 73577335}
   m_Layer: 5
   m_Name: +4Cartas (22)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,7 +944,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -1236.9998}
+  m_AnchoredPosition: {x: 14.000122, y: -148.99976}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &73577335
@@ -998,7 +998,7 @@ GameObject:
   - component: {fileID: 75285235}
   m_Layer: 5
   m_Name: +4Cartas (20)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1020,7 +1020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -935.00073}
+  m_AnchoredPosition: {x: 261, y: 152.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75285235
@@ -1186,7 +1186,7 @@ GameObject:
   - component: {fileID: 92394516}
   m_Layer: 5
   m_Name: +4Cartas (88)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1208,7 +1208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -7844.001}
+  m_AnchoredPosition: {x: -230, y: -6756.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92394516
@@ -1661,7 +1661,7 @@ GameObject:
   - component: {fileID: 142444281}
   m_Layer: 5
   m_Name: +4Cartas (98)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1683,7 +1683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -8745.001}
+  m_AnchoredPosition: {x: 14.000122, y: -7657.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142444281
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 162984471}
   m_Layer: 5
   m_Name: +4Cartas (36)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2067,7 +2067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -2755.0007}
+  m_AnchoredPosition: {x: -230, y: -1667.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162984471
@@ -2121,7 +2121,7 @@ GameObject:
   - component: {fileID: 166042603}
   m_Layer: 5
   m_Name: +4Cartas (17)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2143,7 +2143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -637.99976}
+  m_AnchoredPosition: {x: 261, y: 450.00024}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166042603
@@ -2197,7 +2197,7 @@ GameObject:
   - component: {fileID: 168574110}
   m_Layer: 5
   m_Name: +4Cartas (18)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2219,7 +2219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -935.00073}
+  m_AnchoredPosition: {x: -230, y: 152.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168574110
@@ -2551,7 +2551,7 @@ GameObject:
   - component: {fileID: 179024336}
   m_Layer: 5
   m_Name: +4Cartas (1)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2573,7 +2573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: 830.99927}
+  m_AnchoredPosition: {x: 14.000122, y: 426.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &179024336
@@ -2787,7 +2787,7 @@ GameObject:
   - component: {fileID: 211970429}
   m_Layer: 5
   m_Name: +4Cartas (11)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2809,7 +2809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -44}
+  m_AnchoredPosition: {x: 261, y: -448}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211970429
@@ -2863,7 +2863,7 @@ GameObject:
   - component: {fileID: 213054375}
   m_Layer: 5
   m_Name: +4Cartas (39)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2885,7 +2885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -3068.0007}
+  m_AnchoredPosition: {x: -230, y: -1980.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &213054375
@@ -2975,7 +2975,7 @@ GameObject:
   - component: {fileID: 268339661}
   m_Layer: 5
   m_Name: +4Cartas (48)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2997,7 +2997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -3956.0007}
+  m_AnchoredPosition: {x: -230, y: -2868.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268339661
@@ -3178,7 +3178,7 @@ GameObject:
   - component: {fileID: 276343716}
   m_Layer: 5
   m_Name: +4Cartas (87)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3200,7 +3200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -7844.001}
+  m_AnchoredPosition: {x: 261, y: -6756.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276343716
@@ -3254,7 +3254,7 @@ GameObject:
   - component: {fileID: 276508005}
   m_Layer: 5
   m_Name: +4Cartas (84)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3276,7 +3276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -7542.001}
+  m_AnchoredPosition: {x: 261, y: -6454.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276508005
@@ -3330,7 +3330,7 @@ GameObject:
   - component: {fileID: 288398213}
   m_Layer: 5
   m_Name: +4Cartas (91)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3352,7 +3352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -8152.001}
+  m_AnchoredPosition: {x: -230, y: -7064.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288398213
@@ -3406,7 +3406,7 @@ GameObject:
   - component: {fileID: 291800616}
   m_Layer: 5
   m_Name: +4Cartas (101)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3428,7 +3428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -9047.001}
+  m_AnchoredPosition: {x: 14.000122, y: -7959.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291800616
@@ -3482,7 +3482,7 @@ GameObject:
   - component: {fileID: 302122847}
   m_Layer: 5
   m_Name: +4Cartas (35)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3504,7 +3504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -2451.9998}
+  m_AnchoredPosition: {x: 261, y: -1363.9998}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302122847
@@ -3558,7 +3558,7 @@ GameObject:
   - component: {fileID: 315680727}
   m_Layer: 5
   m_Name: +4Cartas (57)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3580,7 +3580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -4859.001}
+  m_AnchoredPosition: {x: -230, y: -3771.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &315680727
@@ -3634,7 +3634,7 @@ GameObject:
   - component: {fileID: 321882855}
   m_Layer: 5
   m_Name: +4Cartas (6)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3656,7 +3656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: 251.99902}
+  m_AnchoredPosition: {x: -230, y: -152.00098}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321882855
@@ -3933,7 +3933,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1969616088}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.9515124
+  m_Size: 0.95150465
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3989,7 +3989,7 @@ GameObject:
   - component: {fileID: 372247834}
   m_Layer: 5
   m_Name: +4Cartas (51)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4011,7 +4011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -4248.001}
+  m_AnchoredPosition: {x: -230, y: -3160.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372247834
@@ -4065,7 +4065,7 @@ GameObject:
   - component: {fileID: 377236489}
   m_Layer: 5
   m_Name: +4Cartas (12)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4087,7 +4087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -341.00073}
+  m_AnchoredPosition: {x: -230, y: -745.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377236489
@@ -4379,7 +4379,7 @@ GameObject:
   - component: {fileID: 407196604}
   m_Layer: 5
   m_Name: +4Cartas (13)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4401,7 +4401,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -341.00073}
+  m_AnchoredPosition: {x: 14.000122, y: 746.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407196604
@@ -4455,7 +4455,7 @@ GameObject:
   - component: {fileID: 407698504}
   m_Layer: 5
   m_Name: +4Cartas (30)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4477,7 +4477,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -2146.0007}
+  m_AnchoredPosition: {x: -230, y: -1058.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407698504
@@ -4643,7 +4643,7 @@ GameObject:
   - component: {fileID: 420915819}
   m_Layer: 5
   m_Name: +4Cartas (33)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4665,7 +4665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -2452.0007}
+  m_AnchoredPosition: {x: -230, y: -1364.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420915819
@@ -4719,7 +4719,7 @@ GameObject:
   - component: {fileID: 422579683}
   m_Layer: 5
   m_Name: +4Cartas (47)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4741,7 +4741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -3658.0007}
+  m_AnchoredPosition: {x: 261, y: -2570.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422579683
@@ -4970,7 +4970,7 @@ GameObject:
   - component: {fileID: 432068858}
   m_Layer: 5
   m_Name: +4Cartas (23)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4992,7 +4992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -1236.9998}
+  m_AnchoredPosition: {x: 261, y: -148.99976}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &432068858
@@ -5191,7 +5191,7 @@ GameObject:
   - component: {fileID: 459591072}
   m_Layer: 5
   m_Name: +4Cartas (19)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5213,7 +5213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -935.00073}
+  m_AnchoredPosition: {x: 14.000122, y: 152.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459591072
@@ -5267,7 +5267,7 @@ GameObject:
   - component: {fileID: 466705233}
   m_Layer: 5
   m_Name: +4Cartas (85)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5289,7 +5289,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -7542.001}
+  m_AnchoredPosition: {x: -230, y: -6454.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &466705233
@@ -5343,7 +5343,7 @@ GameObject:
   - component: {fileID: 470990762}
   m_Layer: 5
   m_Name: +4Cartas (2)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5365,7 +5365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: 830.99927}
+  m_AnchoredPosition: {x: 261, y: 426.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470990762
@@ -5491,7 +5491,7 @@ GameObject:
   - component: {fileID: 480833007}
   m_Layer: 5
   m_Name: +4Cartas (71)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5513,7 +5513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -6039.001}
+  m_AnchoredPosition: {x: 261, y: -4951.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &480833007
@@ -5718,7 +5718,7 @@ GameObject:
   - component: {fileID: 520112100}
   m_Layer: 5
   m_Name: +4Cartas (26)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,7 +5740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -1529.0007}
+  m_AnchoredPosition: {x: 261, y: -441.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &520112100
@@ -6056,7 +6056,7 @@ GameObject:
   - component: {fileID: 554573240}
   m_Layer: 5
   m_Name: +4Cartas (52)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6078,7 +6078,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -4248.001}
+  m_AnchoredPosition: {x: 14.000122, y: -3160.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554573240
@@ -6155,7 +6155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15.262605, y: 289.1846}
+  m_AnchoredPosition: {x: 15.26255, y: 289.1846}
   m_SizeDelta: {x: 629.5467, y: 564.3486}
   m_Pivot: {x: 0.49999997, y: 1}
 --- !u!114 &563865768
@@ -6185,7 +6185,7 @@ GameObject:
   - component: {fileID: 569928664}
   m_Layer: 5
   m_Name: +4Cartas (8)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6207,7 +6207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: 251.99902}
+  m_AnchoredPosition: {x: 261, y: -152.00098}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569928664
@@ -6261,7 +6261,7 @@ GameObject:
   - component: {fileID: 579952429}
   m_Layer: 5
   m_Name: +4Cartas (72)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6283,7 +6283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -6337.001}
+  m_AnchoredPosition: {x: -230, y: -5249.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579952429
@@ -6337,7 +6337,7 @@ GameObject:
   - component: {fileID: 581904543}
   m_Layer: 5
   m_Name: +4Cartas (73)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6359,7 +6359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -6337.001}
+  m_AnchoredPosition: {x: 14.000122, y: -5249.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &581904543
@@ -6413,7 +6413,7 @@ GameObject:
   - component: {fileID: 586770163}
   m_Layer: 5
   m_Name: +4Cartas (40)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6435,7 +6435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -3068.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -1980.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586770163
@@ -6525,7 +6525,7 @@ GameObject:
   - component: {fileID: 600120539}
   m_Layer: 5
   m_Name: +4Cartas (81)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6547,7 +6547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -7246.001}
+  m_AnchoredPosition: {x: -230, y: -6158.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600120539
@@ -6601,7 +6601,7 @@ GameObject:
   - component: {fileID: 610177008}
   m_Layer: 5
   m_Name: +4Cartas (102)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6623,7 +6623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -9343.001}
+  m_AnchoredPosition: {x: 261, y: -8255.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610177008
@@ -6677,7 +6677,7 @@ GameObject:
   - component: {fileID: 624170569}
   m_Layer: 5
   m_Name: +4Cartas (31)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6699,7 +6699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -2146.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -1058.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624170569
@@ -6753,7 +6753,7 @@ GameObject:
   - component: {fileID: 625022615}
   m_Layer: 5
   m_Name: +4Cartas (103)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6775,7 +6775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -9343.001}
+  m_AnchoredPosition: {x: -230, y: -8255.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625022615
@@ -7044,7 +7044,7 @@ GameObject:
   - component: {fileID: 663672070}
   m_Layer: 5
   m_Name: +4Cartas (32)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7066,7 +7066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -2146.0007}
+  m_AnchoredPosition: {x: 261, y: -1058.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &663672070
@@ -7120,7 +7120,7 @@ GameObject:
   - component: {fileID: 665844671}
   m_Layer: 5
   m_Name: +4Cartas (41)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7142,7 +7142,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -3067.9998}
+  m_AnchoredPosition: {x: 261, y: -1979.9998}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665844671
@@ -7196,7 +7196,7 @@ GameObject:
   - component: {fileID: 667173605}
   m_Layer: 5
   m_Name: +4Cartas (44)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7218,7 +7218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -3366.0007}
+  m_AnchoredPosition: {x: 261, y: -2278.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &667173605
@@ -7348,7 +7348,7 @@ GameObject:
   - component: {fileID: 711657990}
   m_Layer: 5
   m_Name: +4Cartas (69)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7370,7 +7370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -6039.001}
+  m_AnchoredPosition: {x: -230, y: -4951.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &711657990
@@ -7676,12 +7676,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardHeroe: {fileID: 5866493269247709189, guid: 6dfed45d55e66c841aa086fab7af90c3, type: 3}
-  cardPlata: {fileID: 0}
-  cardClima: {fileID: 0}
-  cardAumento: {fileID: 0}
+  cardPlata: {fileID: 5866493269247709189, guid: a44926676d036074dabfd7c84b4539b6, type: 3}
+  cardClima: {fileID: 5866493269247709189, guid: 6dfed45d55e66c841aa086fab7af90c3, type: 3}
+  cardAumento: {fileID: 5866493269247709189, guid: 79f2e5261615e5241a2385ca837934e3, type: 3}
   "cardSe\xF1uelo": {fileID: 0}
-  cardAsedio: {fileID: 0}
-  cardneutral: {fileID: 0}
+  efects: {fileID: 0}
   cartas: []
 --- !u!1 &807396304
 GameObject:
@@ -7925,7 +7924,7 @@ GameObject:
   - component: {fileID: 841964811}
   m_Layer: 5
   m_Name: +4Cartas (77)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7947,7 +7946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -6635.001}
+  m_AnchoredPosition: {x: 261, y: -5547.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841964811
@@ -8001,7 +8000,7 @@ GameObject:
   - component: {fileID: 853488368}
   m_Layer: 5
   m_Name: +4Cartas (82)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8023,7 +8022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -7246.001}
+  m_AnchoredPosition: {x: 14.000122, y: -6158.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853488368
@@ -8303,7 +8302,7 @@ GameObject:
   - component: {fileID: 883247302}
   m_Layer: 5
   m_Name: +4Cartas (29)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8325,7 +8324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -1835.0007}
+  m_AnchoredPosition: {x: 261, y: -747.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883247302
@@ -8452,7 +8451,7 @@ GameObject:
   - component: {fileID: 908634381}
   m_Layer: 5
   m_Name: +4Cartas (94)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8474,7 +8473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -8454.001}
+  m_AnchoredPosition: {x: -230, y: -7366.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908634381
@@ -8619,7 +8618,7 @@ GameObject:
   - component: {fileID: 918828616}
   m_Layer: 5
   m_Name: +4Cartas (62)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8641,7 +8640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -5146.001}
+  m_AnchoredPosition: {x: 261, y: -4058.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918828616
@@ -8695,7 +8694,7 @@ GameObject:
   - component: {fileID: 943433907}
   m_Layer: 5
   m_Name: +4Cartas (38)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8717,7 +8716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -2755.0007}
+  m_AnchoredPosition: {x: 261, y: -1667.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943433907
@@ -8771,7 +8770,7 @@ GameObject:
   - component: {fileID: 956804390}
   m_Layer: 5
   m_Name: +4Cartas (78)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8793,7 +8792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -6943.001}
+  m_AnchoredPosition: {x: -230, y: -5855.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956804390
@@ -9005,7 +9004,7 @@ GameObject:
   - component: {fileID: 970403136}
   m_Layer: 5
   m_Name: +4Cartas (76)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9027,7 +9026,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -6635.001}
+  m_AnchoredPosition: {x: 14.000122, y: -5547.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &970403136
@@ -9081,7 +9080,7 @@ GameObject:
   - component: {fileID: 985793813}
   m_Layer: 5
   m_Name: +4Cartas (63)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9103,7 +9102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -5444.001}
+  m_AnchoredPosition: {x: -230, y: -4356.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985793813
@@ -9233,7 +9232,7 @@ GameObject:
   - component: {fileID: 996252932}
   m_Layer: 5
   m_Name: +4Cartas (55)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9255,7 +9254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -4551.001}
+  m_AnchoredPosition: {x: 14.000122, y: -3463.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996252932
@@ -9497,7 +9496,7 @@ GameObject:
   - component: {fileID: 1023239198}
   m_Layer: 5
   m_Name: +4Cartas (4)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9519,7 +9518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: 539.99927}
+  m_AnchoredPosition: {x: 14.000122, y: 135.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023239198
@@ -9609,7 +9608,7 @@ GameObject:
   - component: {fileID: 1033725034}
   m_Layer: 5
   m_Name: +4Cartas (97)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9631,7 +9630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -8745.001}
+  m_AnchoredPosition: {x: -230, y: -7657.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1033725034
@@ -9833,7 +9832,7 @@ GameObject:
   - component: {fileID: 1037745469}
   m_Layer: 5
   m_Name: +4Cartas (14)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9855,7 +9854,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -341.00073}
+  m_AnchoredPosition: {x: 261, y: 746.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037745469
@@ -9909,7 +9908,7 @@ GameObject:
   - component: {fileID: 1040321793}
   m_Layer: 5
   m_Name: +4Cartas (43)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9931,7 +9930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -3366.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -2278.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040321793
@@ -9985,7 +9984,7 @@ GameObject:
   - component: {fileID: 1049507621}
   m_Layer: 5
   m_Name: +4Cartas (7)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10007,7 +10006,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: 251.99902}
+  m_AnchoredPosition: {x: 14.000122, y: -152.00098}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049507621
@@ -10568,7 +10567,7 @@ GameObject:
   - component: {fileID: 1125449279}
   m_Layer: 5
   m_Name: +4Cartas (54)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10590,7 +10589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -4551.001}
+  m_AnchoredPosition: {x: -230, y: -3463.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125449279
@@ -10851,7 +10850,7 @@ GameObject:
   - component: {fileID: 1158394231}
   m_Layer: 5
   m_Name: +4Cartas (83)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10873,7 +10872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -6943.001}
+  m_AnchoredPosition: {x: 261, y: -5855.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158394231
@@ -12084,7 +12083,47 @@ MonoBehaviour:
   - {fileID: 1538542927}
   - {fileID: 205957320}
   - {fileID: 86026299}
-  posicionscard: []
+  posicionscard:
+  - {fileID: 1562507523}
+  - {fileID: 179024334}
+  - {fileID: 470990760}
+  - {fileID: 1929735055}
+  - {fileID: 1023239196}
+  - {fileID: 1589187270}
+  - {fileID: 321882853}
+  - {fileID: 1049507619}
+  - {fileID: 569928662}
+  - {fileID: 1444116743}
+  - {fileID: 1685663409}
+  - {fileID: 211970427}
+  - {fileID: 377236487}
+  - {fileID: 407196602}
+  - {fileID: 1037745467}
+  - {fileID: 1448706992}
+  - {fileID: 1810672494}
+  - {fileID: 166042601}
+  - {fileID: 168574108}
+  - {fileID: 459591070}
+  - {fileID: 75285233}
+  - {fileID: 1796017400}
+  - {fileID: 73577333}
+  - {fileID: 432068856}
+  - {fileID: 1882449317}
+  - {fileID: 33415086}
+  - {fileID: 520112098}
+  - {fileID: 1615931746}
+  - {fileID: 1699913121}
+  - {fileID: 883247300}
+  - {fileID: 407698502}
+  - {fileID: 624170567}
+  - {fileID: 663672068}
+  - {fileID: 420915817}
+  - {fileID: 2006535052}
+  - {fileID: 302122845}
+  - {fileID: 162984469}
+  - {fileID: 1620168216}
+  - {fileID: 943433905}
+  - {fileID: 213054373}
 --- !u!1 &1295401592
 GameObject:
   m_ObjectHideFlags: 0
@@ -12333,7 +12372,7 @@ GameObject:
   - component: {fileID: 1311068336}
   m_Layer: 5
   m_Name: +4Cartas (59)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12355,7 +12394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -4859.001}
+  m_AnchoredPosition: {x: 261, y: -3771.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311068336
@@ -12481,7 +12520,7 @@ GameObject:
   - component: {fileID: 1384564628}
   m_Layer: 5
   m_Name: +4Cartas (95)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12503,7 +12542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -8454.001}
+  m_AnchoredPosition: {x: 14.000122, y: -7366.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384564628
@@ -12854,7 +12893,7 @@ GameObject:
   - component: {fileID: 1444116745}
   m_Layer: 5
   m_Name: +4Cartas (9)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12876,7 +12915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -44.000977}
+  m_AnchoredPosition: {x: -230, y: -448.00098}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444116745
@@ -12930,7 +12969,7 @@ GameObject:
   - component: {fileID: 1448706994}
   m_Layer: 5
   m_Name: +4Cartas (15)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12952,7 +12991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -638.00073}
+  m_AnchoredPosition: {x: -230, y: 449.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448706994
@@ -13141,7 +13180,7 @@ GameObject:
   - component: {fileID: 1450133447}
   m_Layer: 5
   m_Name: +4Cartas (53)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13163,7 +13202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -4248.001}
+  m_AnchoredPosition: {x: 261, y: -3160.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450133447
@@ -13515,7 +13554,7 @@ GameObject:
   - component: {fileID: 1485587449}
   m_Layer: 5
   m_Name: +4Cartas (99)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13537,7 +13576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -9047.001}
+  m_AnchoredPosition: {x: 261, y: -7959.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485587449
@@ -13726,7 +13765,7 @@ GameObject:
   - component: {fileID: 1497639212}
   m_Layer: 5
   m_Name: +4Cartas (58)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13748,7 +13787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -4859.001}
+  m_AnchoredPosition: {x: 14.000122, y: -3771.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497639212
@@ -13939,7 +13978,7 @@ GameObject:
   - component: {fileID: 1505178202}
   m_Layer: 5
   m_Name: +4Cartas (67)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13961,7 +14000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -5747.001}
+  m_AnchoredPosition: {x: 14.000122, y: -4659.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505178202
@@ -14015,7 +14054,7 @@ GameObject:
   - component: {fileID: 1518848491}
   m_Layer: 5
   m_Name: +4Cartas (64)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14037,7 +14076,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -5444.001}
+  m_AnchoredPosition: {x: 14.000122, y: -4356.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518848491
@@ -14359,7 +14398,7 @@ GameObject:
   - component: {fileID: 1544501370}
   m_Layer: 5
   m_Name: +4Cartas (45)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14381,7 +14420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -3658.0007}
+  m_AnchoredPosition: {x: -230, y: -2570.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544501370
@@ -14471,7 +14510,7 @@ GameObject:
   - component: {fileID: 1562507525}
   m_Layer: 5
   m_Name: +4Cartas
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14493,7 +14532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: 831}
+  m_AnchoredPosition: {x: -230, y: 427}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562507525
@@ -14704,7 +14743,7 @@ GameObject:
   - component: {fileID: 1589187272}
   m_Layer: 5
   m_Name: +4Cartas (5)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14726,7 +14765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: 539.99927}
+  m_AnchoredPosition: {x: 261, y: 135.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589187272
@@ -14780,7 +14819,7 @@ GameObject:
   - component: {fileID: 1590479883}
   m_Layer: 5
   m_Name: +4Cartas (49)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14802,7 +14841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -3956.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -2868.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590479883
@@ -14892,7 +14931,7 @@ GameObject:
   - component: {fileID: 1604650618}
   m_Layer: 5
   m_Name: +4Cartas (56)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14914,7 +14953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -4551.001}
+  m_AnchoredPosition: {x: 261, y: -3463.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1604650618
@@ -14968,7 +15007,7 @@ GameObject:
   - component: {fileID: 1615931748}
   m_Layer: 5
   m_Name: +4Cartas (27)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14990,7 +15029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -1835.0007}
+  m_AnchoredPosition: {x: -230, y: -747.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1615931748
@@ -15044,7 +15083,7 @@ GameObject:
   - component: {fileID: 1620168218}
   m_Layer: 5
   m_Name: +4Cartas (37)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15066,7 +15105,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -2755.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -1667.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620168218
@@ -15120,7 +15159,7 @@ GameObject:
   - component: {fileID: 1623209348}
   m_Layer: 5
   m_Name: +4Cartas (93)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15142,7 +15181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -8454.001}
+  m_AnchoredPosition: {x: 261, y: -7366.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1623209348
@@ -15196,7 +15235,7 @@ GameObject:
   - component: {fileID: 1646467169}
   m_Layer: 5
   m_Name: +4Cartas (90)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15218,7 +15257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -8152.001}
+  m_AnchoredPosition: {x: 261, y: -7064.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646467169
@@ -15418,7 +15457,7 @@ GameObject:
   - component: {fileID: 1684356014}
   m_Layer: 5
   m_Name: +4Cartas (60)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15440,7 +15479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -5146.001}
+  m_AnchoredPosition: {x: -230, y: -4058.0012}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1684356014
@@ -15494,7 +15533,7 @@ GameObject:
   - component: {fileID: 1685663411}
   m_Layer: 5
   m_Name: +4Cartas (10)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15516,7 +15555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -44}
+  m_AnchoredPosition: {x: 14.000122, y: -448}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1685663411
@@ -15570,7 +15609,7 @@ GameObject:
   - component: {fileID: 1687882856}
   m_Layer: 5
   m_Name: +4Cartas (46)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15592,7 +15631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -3658.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -2570.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1687882856
@@ -15646,7 +15685,7 @@ GameObject:
   - component: {fileID: 1699913123}
   m_Layer: 5
   m_Name: +4Cartas (28)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15668,7 +15707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -1835.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -747.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699913123
@@ -15722,7 +15761,7 @@ GameObject:
   - component: {fileID: 1756340877}
   m_Layer: 5
   m_Name: +4Cartas (96)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15744,7 +15783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -8745.001}
+  m_AnchoredPosition: {x: 261, y: -7657.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756340877
@@ -15798,7 +15837,7 @@ GameObject:
   - component: {fileID: 1759614636}
   m_Layer: 5
   m_Name: +4Cartas (104)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15820,7 +15859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -9343.001}
+  m_AnchoredPosition: {x: 14.000122, y: -8255.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1759614636
@@ -16054,7 +16093,7 @@ GameObject:
   - component: {fileID: 1780235769}
   m_Layer: 5
   m_Name: +4Cartas (80)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16076,7 +16115,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -7246.001}
+  m_AnchoredPosition: {x: 261, y: -6158.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780235769
@@ -16130,7 +16169,7 @@ GameObject:
   - component: {fileID: 1780541383}
   m_Layer: 5
   m_Name: +4Cartas (74)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16152,7 +16191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -6337.001}
+  m_AnchoredPosition: {x: 261, y: -5249.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780541383
@@ -16206,7 +16245,7 @@ GameObject:
   - component: {fileID: 1784920084}
   m_Layer: 5
   m_Name: +4Cartas (86)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16228,7 +16267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -7542.001}
+  m_AnchoredPosition: {x: 14.000122, y: -6454.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1784920084
@@ -16355,7 +16394,7 @@ GameObject:
   - component: {fileID: 1796017402}
   m_Layer: 5
   m_Name: +4Cartas (21)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16377,7 +16416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -1237.0007}
+  m_AnchoredPosition: {x: -230, y: -149.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796017402
@@ -16630,7 +16669,7 @@ GameObject:
   - component: {fileID: 1810672496}
   m_Layer: 5
   m_Name: +4Cartas (16)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16652,7 +16691,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -637.99976}
+  m_AnchoredPosition: {x: 14.000122, y: 450.00024}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1810672496
@@ -16973,7 +17012,7 @@ GameObject:
   - component: {fileID: 1850349991}
   m_Layer: 5
   m_Name: +4Cartas (75)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16995,7 +17034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -6635.001}
+  m_AnchoredPosition: {x: -230, y: -5547.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1850349991
@@ -17144,7 +17183,7 @@ GameObject:
   - component: {fileID: 1882449319}
   m_Layer: 5
   m_Name: +4Cartas (24)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17166,7 +17205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -1529.0007}
+  m_AnchoredPosition: {x: -230, y: -441.00073}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1882449319
@@ -17287,7 +17326,7 @@ GameObject:
   - component: {fileID: 1900000933}
   m_Layer: 5
   m_Name: +4Cartas (66)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17309,7 +17348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -5747.001}
+  m_AnchoredPosition: {x: -230, y: -4659.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900000933
@@ -17363,7 +17402,7 @@ GameObject:
   - component: {fileID: 1901801332}
   m_Layer: 5
   m_Name: +4Cartas (70)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17385,7 +17424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -6039.001}
+  m_AnchoredPosition: {x: 14.000122, y: -4951.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1901801332
@@ -17475,7 +17514,7 @@ GameObject:
   - component: {fileID: 1921300954}
   m_Layer: 5
   m_Name: +4Cartas (79)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17497,7 +17536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -6943.001}
+  m_AnchoredPosition: {x: 14.000122, y: -5855.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1921300954
@@ -17551,7 +17590,7 @@ GameObject:
   - component: {fileID: 1924267255}
   m_Layer: 5
   m_Name: +4Cartas (50)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17573,7 +17612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.99997, y: -3956.0007}
+  m_AnchoredPosition: {x: 261, y: -2868.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924267255
@@ -17627,7 +17666,7 @@ GameObject:
   - component: {fileID: 1929735057}
   m_Layer: 5
   m_Name: +4Cartas (3)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17649,7 +17688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: 539.99927}
+  m_AnchoredPosition: {x: -230, y: 135.99927}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929735057
@@ -18012,7 +18051,7 @@ GameObject:
   - component: {fileID: 1970174189}
   m_Layer: 5
   m_Name: +4Cartas (92)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18034,7 +18073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -8152.001}
+  m_AnchoredPosition: {x: 14.000122, y: -7064.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970174189
@@ -18267,7 +18306,7 @@ GameObject:
   - component: {fileID: 1976829544}
   m_Layer: 5
   m_Name: +4Cartas (100)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18289,7 +18328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -9047.001}
+  m_AnchoredPosition: {x: -230, y: -7959.001}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976829544
@@ -18434,7 +18473,7 @@ GameObject:
   - component: {fileID: 2006535054}
   m_Layer: 5
   m_Name: +4Cartas (34)
-  m_TagString: Posiciones 1
+  m_TagString: Posiciones Scroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18456,7 +18495,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.000122, y: -2452.0007}
+  m_AnchoredPosition: {x: 14.000122, y: -1364.0007}
   m_SizeDelta: {x: 209.9302, y: 267.7881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006535054
@@ -19088,7 +19127,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 103812918}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999243
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

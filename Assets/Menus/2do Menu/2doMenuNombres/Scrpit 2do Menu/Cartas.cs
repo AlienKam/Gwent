@@ -32,11 +32,12 @@ public class Cartas : MonoBehaviour
         }
     }
 
+    //Aqui se busca en el diccionario
     public BaseCard CrearCarta()
     {
         if (baseCard != null) return baseCard;
 
-        habilidad = Dictionaryeffects.cardEffects[nombre];
+        habilidad = Dictionaryeffects.cardEffects.ContainsKey(nombre) ? Dictionaryeffects.cardEffects[nombre] : new List<IOnActivation>();
         switch (tipoCarta)
         {
             case "Heroe":

@@ -46,12 +46,6 @@ public class ContinuarPanelFacciones : MonoBehaviour
       player2.GetComponent<PlayersVisual>().nameplayer = nameplayer2;
       player2.GetComponent<PlayersVisual>().faccionplayer = faccionName2;
 
-      // DirectoryInfo directory1 = Directory.CreateDirectory($"Assets/Iconos/Prefabs Cartas/{faccionName1}");
-      // DirectoryInfo directory2 = Directory.CreateDirectory($"Assets/Iconos/Prefabs Cartas/{faccionName2}");
-
-      // List<GameObject> cartsFaccion1 = LoadFaccionCarts(directory1).ToList();
-      // List<GameObject> cartsFaccion2 = LoadFaccionCarts(directory2).ToList();
-
       List<GameObject> cartsFaccion1 = Resources.LoadAll<GameObject>($"Prefabs Cartas/{faccionName1}").ToList();
       List<GameObject> cartsFaccion2 = Resources.LoadAll<GameObject>($"Prefabs Cartas/{faccionName2}").ToList();
 

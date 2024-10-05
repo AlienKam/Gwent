@@ -16,10 +16,11 @@ public class MostrarCartas2DoPanel : MonoBehaviour
 
     public void MostrarCartas()
     {
-        //posicionscard = GameObject.FindGameObjectsWithTag(" Posiciones 1").ToList();
+        //posicionscard = GameObject.FindGameObjectsWithTag("Posiciones Scroll ").ToList();
         cardscread = creador.cartas;
         if (cardscread.Count == 1)
         {
+            Debug.Log(cardscread[0].GetComponent<Cartas>().habilidad[0].Effect.Name);
             cardscread[0].transform.position = posicion1card.transform.position;
             cardscread[0].transform.SetParent(posicion1card.transform);
             RectTransform parent = cardscread[0].transform.parent.GetComponent<RectTransform>();

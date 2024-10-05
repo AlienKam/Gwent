@@ -76,6 +76,7 @@ public class Buttons : MonoBehaviour
          creador.CreadorFacciones(item);
          Dictionaryeffects.cardEffects[item.Name] = item.OnActivations.ToList();
       }
+
       Debug.Log("");
    }
 
