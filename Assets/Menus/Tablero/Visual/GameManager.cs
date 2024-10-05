@@ -56,6 +56,9 @@ public class GameManager : MonoBehaviour
         //Esto busca al objeto en la escena 
         GameObject deck1 = GameObject.Find("Deck 1");
         GameObject deck2 = GameObject.Find("Deck 2");
+        
+        deck1.GetComponent<RectTransform>().sizeDelta = new Vector2(89.168f, 125.2989f);
+        deck2.GetComponent<RectTransform>().sizeDelta = new Vector2(89.168f, 125.2989f);
 
         GameObject player1 = GameObject.Find("Player 1");
         GameObject player2 = GameObject.Find("Player 2");

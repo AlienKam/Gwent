@@ -20,6 +20,18 @@ public class ContinuarPanelFacciones : MonoBehaviour
    public GameObject player2;
    public Scene newScene;
 
+   public void Update()
+   {
+      if (player1drop == null || player2drop == null) return;
+      var facciones = Directory.CreateDirectory("Assets/Resources/Prefabs Cartas/").GetDirectories().Select(x => x.Name).Where(x => x != "Cartas Base");
+
+      if (player1drop.options.Count == facciones.Count()) return;
+      player1drop.ClearOptions();
+      player1drop.AddOptions(facciones.ToList());
+      player2drop.ClearOptions();
+      player2drop.AddOptions(facciones.ToList());
+   }
+
    // Este metodo prepara las cosas iniciales para el juego osea crea los directorios de las cartas instasncia los jugadores y coge las facciones
    public void Continuar()
    {
@@ -48,7 +60,7 @@ public class ContinuarPanelFacciones : MonoBehaviour
 
       // foreach (var item in cartsFaccion1) DontDestroyOnLoad(item);
       // foreach (var item in cartsFaccion2) DontDestroyOnLoad(item);
-      
+
       DontDestroyOnLoad(player1);
       DontDestroyOnLoad(player2);
       DontDestroyOnLoad(deck1);

@@ -76,4 +76,11 @@ public class Buttons : MonoBehaviour
       }
       Debug.Log("");
    }
+
+   public void Atras()
+   {
+      panelact.SetActive(false);
+      paneldesact.SetActive(true);
+      paneldesact2.SetActive(true);
+   }
 }
