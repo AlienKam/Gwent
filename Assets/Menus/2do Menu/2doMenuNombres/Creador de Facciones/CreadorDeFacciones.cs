@@ -11,6 +11,7 @@ using JetBrains.Annotations;
 using UnityEngine.WSA;
 using UnityEditor;
 using System.IO;
+using System.Linq;
 
 public class CreadorDeFacciones : MonoBehaviour
 {
@@ -62,7 +63,7 @@ public class CreadorDeFacciones : MonoBehaviour
         Cartas viewCard = instanciecard.AddComponent<Cartas>();
         viewCard.nombre = carta.Name;
         viewCard.faccion = carta.Faction;
-        viewCard.habilidad = carta.OnActivations;
+        viewCard.habilidad = carta.OnActivations.ToList();
         viewCard.power = carta.Power;
         viewCard.range = carta.Range;
         viewCard.tipoCarta = carta.Type;

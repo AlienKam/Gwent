@@ -85,10 +85,12 @@ namespace Logica
          if (onActivations == null) return;
          foreach (var item in onActivations)
          {
+            if (item.Selector == null || item.Effect.Name == null) continue;
             IEnumerable<IContextCard> target = GetSource(item.Selector, context);
             var effect = Dictionaryeffects.effects[item.Effect.Name].Action;
             effect(target, context, item.Effect.Params);
 
+            if (item.PostAction == null) continue;
             var postSelector = item.PostAction.Selector.Source == Source.Parent ? item.Selector : item.PostAction.Selector;
             IEnumerable<IContextCard> postTarget = GetSource(postSelector, context);
             var postAction = Dictionaryeffects.effects[item.PostAction.Effect.Name].Action;

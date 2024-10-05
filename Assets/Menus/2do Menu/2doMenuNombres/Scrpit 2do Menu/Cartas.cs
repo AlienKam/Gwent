@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 using Parser.Language;
 using Unity.VisualScripting;
 using UnityEngine.Analytics;
+using Dicciona;
 
 
 public class Cartas : MonoBehaviour
@@ -14,7 +15,7 @@ public class Cartas : MonoBehaviour
     public string nombre;
     public double power;
     public string tipoCarta;
-    public IEnumerable<IOnActivation> habilidad;
+    public List<IOnActivation> habilidad;
     public CardClassification[] range;
     public BaseCard baseCard;
 
@@ -28,7 +29,6 @@ public class Cartas : MonoBehaviour
             nombre = baseCard.Name;
             tipoCarta = baseCard.Type;
             range = baseCard.Range;
-            habilidad = baseCard.OnActivations;
         }
     }
 
@@ -36,6 +36,7 @@ public class Cartas : MonoBehaviour
     {
         if (baseCard != null) return baseCard;
 
+        habilidad = Dictionaryeffects.cardEffects[nombre];
         switch (tipoCarta)
         {
             case "Heroe":

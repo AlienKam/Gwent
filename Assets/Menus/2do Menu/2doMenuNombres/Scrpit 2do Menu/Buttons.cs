@@ -11,6 +11,7 @@ using Parser.Language;
 using System;
 using Dicciona;
 using Logica;
+using System.Linq;
 
 public class Buttons : MonoBehaviour
 {
@@ -73,6 +74,7 @@ public class Buttons : MonoBehaviour
          Debug.Log(creador);
          Debug.Log(item);
          creador.CreadorFacciones(item);
+         Dictionaryeffects.cardEffects[item.Name] = item.OnActivations.ToList();
       }
       Debug.Log("");
    }

@@ -100,6 +100,8 @@ namespace Parser.Language
     /// </item>
     /// </list>
     /// </summary>
+    /// 
+    [Serializable]
     public class InputParams : Node, IInputParams
     {
         public InputParams(string name, object value, VarType paramsType)
@@ -147,6 +149,7 @@ namespace Parser.Language
         public IEnumerable<IOnActivation> OnActivations { get; private set; }
     }
 
+    [Serializable]
     public class ActionEffect : Node, IActionEffect
     {
         public ActionEffect(ICallEffect effect, ISelector selector)
@@ -160,6 +163,7 @@ namespace Parser.Language
         public ISelector Selector { get; private set; }
     }
 
+    [Serializable]
     public class CallEffect : Node, ICallEffect
     {
         public CallEffect(string name, IInputParams[] @params, bool simple = false)
@@ -176,6 +180,7 @@ namespace Parser.Language
         public IInputParams[] Params { get; private set; }
     }
 
+    [Serializable]
     public class Selector : Node, ISelector
     {
         public Selector(Source source, bool single, Func<IContextCard, bool> predicate)
@@ -192,6 +197,7 @@ namespace Parser.Language
         public Func<IContextCard, bool> Predicate { get; private set; }
     }
 
+    [Serializable]
     public class OnActivation : Node, IOnActivation, IActionEffect
     {
         public OnActivation(IActionEffect postAction, ICallEffect effect, ISelector selector)
