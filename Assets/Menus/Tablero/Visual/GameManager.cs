@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
     public GameObject posiciondeck1;
     public GameObject posiciondeck2;
     public GameObject panel;
+    public GameObject ganador;
     private Player winner;
     private bool isPanelActive;
 
@@ -56,7 +57,7 @@ public class GameManager : MonoBehaviour
         //Esto busca al objeto en la escena 
         GameObject deck1 = GameObject.Find("Deck 1");
         GameObject deck2 = GameObject.Find("Deck 2");
-        
+
         deck1.GetComponent<RectTransform>().sizeDelta = new Vector2(89.168f, 125.2989f);
         deck2.GetComponent<RectTransform>().sizeDelta = new Vector2(89.168f, 125.2989f);
 
@@ -99,8 +100,8 @@ public class GameManager : MonoBehaviour
         deck2.transform.SetParent(posiciondeck2.transform);
 
         //Lo pone en la posicion del padre 
-        deck1.transform.position = new Vector3(deck1.transform.parent.position.x, deck1.transform.parent.position.y, deck1.transform.parent.position.z + 1);
-        deck2.transform.position = new Vector3(deck2.transform.parent.position.x, deck2.transform.parent.position.y, deck2.transform.parent.position.z + 1);
+        deck1.transform.position = new Vector3(deck1.transform.parent.position.x, deck1.transform.parent.position.y, deck1.transform.parent.position.z + 12);
+        deck2.transform.position = new Vector3(deck2.transform.parent.position.x, deck2.transform.parent.position.y, deck2.transform.parent.position.z + 12);
 
         //Le asigna seccion como padre del player
         player1.transform.SetParent(seccion1.transform, false);
@@ -138,9 +139,10 @@ public class GameManager : MonoBehaviour
             Debug.Log("Termino Ronda");
             TerminarJuego(); // TODO implementar ver el panel de final de juego
             GameObject winnergame = players.Find(x => x.GetComponent<PlayersVisual>().nameplayer == winner.nombreplayer);
-            Debug.Log(winnergame);
-            DontDestroyOnLoad(winnergame);
-            SceneManager.LoadScene(3);
+            ganador.name = winnergame.GetComponent<PlayersVisual>().nameplayer;
+            ganador.tag = "Winner";
+            DontDestroyOnLoad(ganador);
+            SceneManager.LoadScene("Fin del Juego 1");
         }
         // Detecta si se presiona la tecla Enter
         if (isPanelActive && Input.GetKeyDown(KeyCode.Return))

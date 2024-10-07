@@ -1,3 +1,16 @@
+  effect:{
+ Name: "Heal",
+ Params: {
+ amount: Number
+ },
+  Action: (targets, context) =>
+  {
+    for target in targets
+    {
+        target.Power = target.Power + amount;
+    }
+  }
+ } 
   card : {
  Type: "Heroe",
  Name: "Geralt",
@@ -6,11 +19,11 @@
  Range: ["Melee"],
  OnActivation: [
  {
- Effect: "Damage",
+ Effect: "Heal",
  Selector: {
  Source: "Field",
  Single: true,
- Predicate: (unit) => unit.Faction == "Monster"
+ Predicate: (unit) => unit.Power <= 15
  }
  }
  ]

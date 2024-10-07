@@ -1,0 +1,17 @@
+  card : {
+ Type: "Heroe",
+ Name: "Alien",
+ Faction: "Faccion 1",
+ Power: 15,
+ Range: ["Melee"],
+ OnActivation: [
+ {
+ Effect: { Name: "Heal", amount: 10},
+ Selector: {
+ Source: "Field",
+ Single: false,
+ Predicate: (unit) => unit.Power <= 10
+ }
+ }
+ ]
+}

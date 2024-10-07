@@ -33,7 +33,7 @@ namespace Parser
                 {
                     TextSplit.Add(element);
                 }
-                if (actualChar != ' ' && actualChar != '\r' && actualChar != '\n')
+                if (actualChar != ' ' && actualChar != '\r' && actualChar != '\n' && actualChar != '\t')
                 {
                     TextSplit.Add(actualChar.ToString());
                 }

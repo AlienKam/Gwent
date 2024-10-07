@@ -1,0 +1,13 @@
+ effect:{
+ Name: "Heal",
+ Params: {
+ amount: Number
+ },
+  Action: (targets, context) =>
+  {
+    for target in targets
+    {
+        target.Power = target.Power + amount;
+    }
+  }
+ }

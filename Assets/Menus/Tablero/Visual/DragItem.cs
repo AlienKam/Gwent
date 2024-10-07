@@ -71,6 +71,10 @@ public class DragItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
       turnoactual.termino = true;
       return;
     }
+    if(_enableDrop)
+    {
+      return;
+    }
 
     ReturnToStartingPosition();
   }
@@ -86,9 +90,9 @@ public class DragItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     _isDropped = dropped;
   }
 
-  public bool IsEnableDrop()
+  public bool IsEnableDrop(bool dropped)
   {
-    return _enableDrop;
+    return _enableDrop = dropped;
   }
 
   //Estos son los metodos para mostrar una carta en el panel de mostrar cartas

@@ -41,6 +41,6 @@ namespace Parser.Language
         /// <summary>
         /// Efectos de activación de la carta
         /// </summary>
-        IEnumerable<IOnActivation> OnActivations { get; }
+        List<IOnActivation> OnActivations { get; }
     }
 }

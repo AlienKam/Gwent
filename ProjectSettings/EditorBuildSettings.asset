@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Menus/Tablero/Tablero.unity
     guid: f9ac48484cb2e30408175b7b2bf17d85
   - enabled: 1
-    path: Assets/Menus/Fin del Juego/Fin Del Juego.unity
-    guid: 68378c55f4208a840b66065752ed9dea
+    path: Assets/Menus/Fin del Juego/Fin del Juego 1.unity
+    guid: e2df61955f94ac5489176a078cc25ba8
   m_configObjects: {}

@@ -59,7 +59,7 @@ public class CreadorDeFacciones : MonoBehaviour
         Cartas viewCard = instanciecard.AddComponent<Cartas>();
         viewCard.nombre = carta.Name;
         viewCard.faccion = carta.Faction;
-        viewCard.habilidad = carta.OnActivations.ToList();
+        viewCard.habilidad = carta.OnActivations;
         viewCard.power = carta.Power;
         viewCard.range = carta.Range;
         viewCard.tipoCarta = carta.Type;

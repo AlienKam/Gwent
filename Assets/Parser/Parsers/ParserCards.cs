@@ -11,6 +11,7 @@ namespace Parser
     public class ParserCards : BaseParser, IParser<Node, IToken>
     {
         private Dictionary<string, VarType> global;
+        private Definitions def;
 
         public ParserCards()
         {
@@ -24,6 +25,7 @@ namespace Parser
         public Definitions Start(IToken[] tokens)
         {
             var definitions = new Definitions();
+            def = definitions;
             for (int i = 0; tokens[i].Type != TokenType.EOF; i++)
             {
                 Def(tokens, definitions, ref i);
@@ -1178,7 +1180,7 @@ namespace Parser
             return card;
         }
 
-        public IEnumerable<IOnActivation> OnActivationList(IToken[] tokens, ref int index)
+        public List<IOnActivation> OnActivationList(IToken[] tokens, ref int index)
         {
             List<IOnActivation> onsList = new List<IOnActivation>();
             if (tokens[++index].Lex != "OnActivation")
@@ -1277,10 +1279,18 @@ namespace Parser
             {
                 index--;
                 name = SimpleName(tokens, ref index);
+                if (!def.effectsdef.ContainsKey(name))
+                {
+                    throw new Exception();
+                }
                 return new CallEffect(name, new IInputParams[0], true);
             }
 
             name = NameCard(tokens, ref index);
+            if (!def.effectsdef.ContainsKey(name))
+            {
+                throw new Exception();
+            }
 
             if (tokens[++index].Type != TokenType.Comma)
             {

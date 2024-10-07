@@ -6,11 +6,12 @@ using TMPro;
 public class Ganador : MonoBehaviour
 {
     public TMP_Text text;
+    public string playername;
     // Start is called before the first frame update
     public void Start()
     {
-        PlayersVisual winner = GameObject.FindObjectOfType<PlayersVisual>();
-        text.text = $"Felicidades {winner.nameplayer} eres el ganador del juego !";
+        playername = GameObject.FindGameObjectWithTag("Winner").name;
+        text.text = $"Felicidades {playername} eres el ganador del juego !";
     }
 
     // Update is called once per frame

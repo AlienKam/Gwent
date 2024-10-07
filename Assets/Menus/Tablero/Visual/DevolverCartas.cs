@@ -19,7 +19,6 @@ public class DevolverCartas : MonoBehaviour, IDropHandler
         DragItem compitem = _item.GetComponent<DragItem>();
         _item.transform.SetParent(transform);
         _item.transform.position = transform.position + new Vector3(0, 0, 1);
-        compitem.IsDropped(true);
-        compitem.SetInGame(false);
+        compitem.IsEnableDrop(true);
     }
 }

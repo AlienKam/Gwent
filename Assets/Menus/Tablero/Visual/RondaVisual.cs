@@ -35,7 +35,7 @@ public class RondaVisual : MonoBehaviour
   public bool terminojuego;
 
   //Instancias de clases
-  Turnos turnos;
+  public Turnos turnos;
   GameManager control;
 
   //Textos

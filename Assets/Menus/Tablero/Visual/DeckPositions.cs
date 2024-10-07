@@ -28,6 +28,7 @@ public class DeckPositions : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log("DNBDBNDFBUDU");
         GameObject gameObject = turno.iniciorondaturno ? panel : Text;
         gameObject.SetActive(true);
     }

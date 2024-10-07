@@ -118,6 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faccion: Faccion 1
   nombre: Luffy
-  power: 10
+  power: 5
   tipoCarta: Heroe
   range: 01000000

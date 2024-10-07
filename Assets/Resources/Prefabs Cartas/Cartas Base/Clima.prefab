@@ -214,7 +214,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -645,10 +645,10 @@ RectTransform:
   m_Father: {fileID: 3613585517135752676}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.38500002}
-  m_AnchorMax: {x: 0.981418, y: 1}
-  m_AnchoredPosition: {x: 2.3525658, y: -1}
-  m_SizeDelta: {x: -3.0278, y: -2.78721}
+  m_AnchorMin: {x: 0.055745885, y: 0.38500002}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 2, y: -1}
+  m_SizeDelta: {x: -1.0278001, y: -2.78721}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4127114313103811068
 CanvasRenderer:
@@ -705,11 +705,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 20
   m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 20
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.94482416, y: 0, z: 1.9361305, w: -24.108927}
+  m_margin: {x: -0.94482416, y: 0.38466236, z: 1.9361305, w: -24.108927}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -782,7 +782,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.17735824, y: 0.16930787}
   m_AnchorMax: {x: 0.9046418, y: 0.90276927}
-  m_AnchoredPosition: {x: -0.46009445, y: -0.54048157}
+  m_AnchoredPosition: {x: -0.46009445, y: 0.39999962}
   m_SizeDelta: {x: 0.52020264, y: 0.2437973}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5866493269241498977
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8117647}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -833,7 +833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5866493269247709186}
   m_Layer: 5
-  m_Name: Carta Base Clima
+  m_Name: Clima
   m_TagString: Heore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -899,10 +899,10 @@ RectTransform:
   m_Father: {fileID: 5866493269247709186}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05064178, y: 0.74088484}
-  m_AnchorMax: {x: 0.273, y: 0.90276927}
-  m_AnchoredPosition: {x: 0.1069603, y: -0.42219543}
-  m_SizeDelta: {x: -0.124399185, y: -0.59339905}
+  m_AnchorMin: {x: 0.088865794, y: 0.74088484}
+  m_AnchorMax: {x: 0.3362836, y: 0.90276927}
+  m_AnchoredPosition: {x: 0.9000001, y: 1.5}
+  m_SizeDelta: {x: -2.1243992, y: -0.59339905}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &5866493269305076871
 CanvasRenderer:
@@ -1036,7 +1036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 3.8, y: 0}
   m_SizeDelta: {x: 0.000030518, y: 0.0000076294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5866493269689688771
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f4c8628d3f5b8e40b06c0f54f64d7e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a46115e6dedbe684b842f8e58558280e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1186,10 +1186,10 @@ RectTransform:
   m_Father: {fileID: 5866493269247709186}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.088865794, y: 0.02138426}
-  m_AnchorMax: {x: 0.24771644, y: 0.148}
-  m_AnchoredPosition: {x: 0.9434891, y: 0.13471222}
-  m_SizeDelta: {x: 0.11299133, y: 1.1018982}
+  m_AnchorMin: {x: 0.8293583, y: 0.053307872}
+  m_AnchorMax: {x: 1, y: 0.148}
+  m_AnchoredPosition: {x: 0.40000153, y: -0.5}
+  m_SizeDelta: {x: -0.88700867, y: 4.101898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5190055448723122208
 CanvasRenderer:

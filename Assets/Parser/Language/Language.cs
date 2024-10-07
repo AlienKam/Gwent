@@ -126,7 +126,7 @@ namespace Parser.Language
     }
     public class Card : Node, ICard, ICardDef
     {
-        public Card(string name, string type, string faction, int power, CardClassification[] range, IEnumerable<IOnActivation> onActivations)
+        public Card(string name, string type, string faction, int power, CardClassification[] range, List<IOnActivation> onActivations)
         {
             Name = name;
             Type = type;
@@ -146,7 +146,7 @@ namespace Parser.Language
 
         public CardClassification[] Range { get; private set; }
 
-        public IEnumerable<IOnActivation> OnActivations { get; private set; }
+        public List<IOnActivation> OnActivations { get; private set; }
     }
 
     [Serializable]

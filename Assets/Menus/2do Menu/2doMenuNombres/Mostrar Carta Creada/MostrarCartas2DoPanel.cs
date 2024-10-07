@@ -16,7 +16,7 @@ public class MostrarCartas2DoPanel : MonoBehaviour
 
     public void MostrarCartas()
     {
-        //posicionscard = GameObject.FindGameObjectsWithTag("Posiciones Scroll ").ToList();
+        posicionscard = GameObject.FindGameObjectsWithTag("Posiciones Scroll").ToList();
         cardscread = creador.cartas;
         if (cardscread.Count == 1)
         {

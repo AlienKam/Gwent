@@ -38,7 +38,7 @@ public class Cartas : MonoBehaviour
         if (baseCard != null) return baseCard;
 
         habilidad = Dictionaryeffects.cardEffects.ContainsKey(nombre) ? Dictionaryeffects.cardEffects[nombre] : new List<IOnActivation>();
-        switch (tipoCarta)
+        switch (tipoCarta)  
         {
             case "Heroe":
                 baseCard = new Heroe(nombre, power, faccion, range, habilidad);

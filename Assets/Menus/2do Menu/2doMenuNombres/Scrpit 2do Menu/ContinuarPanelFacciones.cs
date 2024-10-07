@@ -22,7 +22,7 @@ public class ContinuarPanelFacciones : MonoBehaviour
 
    public void Update()
    {
-     // if (player1drop == null || player2drop == null) return;
+      // if (player1drop == null || player2drop == null) return;
       var facciones = Directory.CreateDirectory("Assets/Resources/Prefabs Cartas/").GetDirectories().Select(x => x.Name).Where(x => x != "Cartas Base");
 
       if (player1drop.options.Count == facciones.Count()) return;
@@ -60,6 +60,8 @@ public class ContinuarPanelFacciones : MonoBehaviour
       DontDestroyOnLoad(deck1);
       DontDestroyOnLoad(deck2);
 
+      // Desactivar script
+      this.gameObject.SetActive(false);
       // Cargar la nueva escena de manera aditiva
       SceneManager.LoadScene("Tablero");
       // Es el indice de la escena en Build Settings

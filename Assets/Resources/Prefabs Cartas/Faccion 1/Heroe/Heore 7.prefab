@@ -118,6 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faccion: Faccion 1
   nombre: Kilua
-  power: 52
+  power: 6
   tipoCarta: Heroe
   range: 01000000
